@@ -112,7 +112,7 @@ nav ul li a:hover::after {
     margin: 20px 0 40px;
 }
 
-.tab-link {
+.tab-links {
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
@@ -120,7 +120,7 @@ nav ul li a:hover::after {
     position: relative;
 }
 
-.tab-link::after {
+.tab-links::after {
     content: '';
     width: 0;
     height: 3px;
@@ -131,7 +131,7 @@ nav ul li a:hover::after {
     transition: 0.5s;
 }
 
-.tab-link.active-link::after {
+.tab-links.active-link::after {
     width: 50%;
 }
 
