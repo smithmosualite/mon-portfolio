@@ -1,15 +1,15 @@
-const tabLinks = document.getElementsByClassName('tab-links');
-const tabContents = document.getElementsByClassName('tab-contents');
+let tablinks = document.getElementsByClassName('tab-links');
+let tabcontents = document.getElementsByClassName('tab-contents');
 
-const openTab = (taNname) => {
-    for (let tabLink of tabLinks) {
-        tabLink.classList.remove('active-link');
+function openTab (tabName){
+    for ( tablink of tablinks) {
+        tablink.classList.remove("active-link");
     }
 
-    for (let tabContent of tabContents) {
-        tabContent.classList.remove('active-tab');
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
     }
 
-    event.currentTarget.classList.add('active-link');
-    document.getElementById(tabName).classList.add('active-tab');
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabName).classList.add("active-tab");
 };
