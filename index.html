@@ -15,13 +15,15 @@
         <div class="container">
             <nav>
                 <img src="" class="logo">
-                <ul>
+                <ul id="sideMenu">
                     <li><a href="#header" onclick="scrollToSection(event, 'header')">Home</a></li>
                     <li><a href="#about" onclick="scrollToSection(event, 'about')">About</a></li>
                     <li><a href="#services" onclick="scrollToSection(event, 'services')">Services</a></li>
                     <li><a href="#portfolio" onclick="scrollToSection(event, 'portfolio')">Portfolio</a></li>
                     <li><a href="#contact" onclick="scrollToSection(event, 'contact')">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                 </ul>
+                <i class="fa-solid fa-list" onclick="openMenu()"></i>
             </nav>
             <div class="header-text">
                 <p>DEVELOPPEUR WEB FULL-STACK</p>
