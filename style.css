@@ -16,10 +16,10 @@ body {
 
 #header {
     width: 100%;
-    height: 100vw;
-    background: url('/assets/beau-jeune-homme-habille-dans-chemise.jpg') no-repeat center bottom / cover;
-    background-size: cover;
-    background-position: center center;
+    height: 100vh;
+    background: url('/assets/Untitled.png') no-repeat left bottom / cover;
+    background-size: auto;
+    background-position: right center;
     color: #262626;
 }
 
