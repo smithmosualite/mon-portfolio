@@ -433,7 +433,8 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
      #header{
-        background-image: url(/assets/beau-jeune-homme-habille-dans-chemise3.jpg);
+        background-image: url(assets/Untitled.png) no-repeat center bottom / cover;
+        background-size: 400px;
      }
      .header-text{
         margin-bottom: 100%;
